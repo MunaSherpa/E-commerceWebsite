@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,500;1,100;1,900&family=Ubuntu:wght@500;700&display=swap');
+
+.name{
+  display: flex;
+  justify-content: center;
+}
+*{
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 500;
+}
+.btns{
+  position: absolute;
+ 
+  width: 70%;
+  padding: 1rem;
+  border-radius: 2em;
+
+  
+}
+.page{
+  display: flex;
+  justify-content: space-between;
+  width: fit-content;
+}
+
+.heading{
+  display: flex;
+  justify-content: center;
+}
+
+.order{
+  display: flex;
+  justify-content: space-around;
+}
+
+.cart-head{
+  
+  display: flex;
+  justify-content: center;
+}
+
+.cart-head h5{
+  font-weight: bold;
+  font-size: large;
+}
+
+.category{
+  position: relative;
+  
+  margin-left: 1.5rem;
+
+  
+}
+
+
+
+
+.cat-btn{
+  background-color: white;
+  color: black;
+  margin: 0.5rem;
+  width: 6rem;
+  border-radius: 5px;
+
+}
+
+
+
+.product-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+ 
+  width: 50rem;
+ 
+  
+}
+
+.card {
+  padding: 1rem;
+  width: 300px;
+  margin: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  overflow: hidden;
+}
+
+.product-img{
+  display: flex;
+  justify-content: center;
+}
+
+.product-img img {
+  height: fit-content;
+  width: 50%;
+}
+
+
+
+.product-title h4 {
+  font-size: 18px;
+  font-weight: bold;
+ 
+  color: black;
+}
+
+.product-desc h6{
+  font-size: 11px;
+
+  color: black;
+  display: flex;
+  justify-content: center;
+
+}
+
+.product-price {
+  display: flex;
+  justify-content: center;
+}
+
+.product-price h6{
+
+  font-weight: bold;
+  color: #ff5722;
+}
+
+
+.btn{
+  display: flex;
+  justify-content: center;
+}
+
+.prod-btn{
+  margin: 0.5rem;
+  background: #1189F9;
+  
+  border-radius: 5px;
+  width: 95px;
+  height: 30px;
+  border: none;
+  color: #fff;
+}
+
+.selected-products{
+  position: relative;
+  width: 30rem;
+  padding-right: 10px;
+}
+
+
+
+.addtocart-btn{
+  position: absolute;
+  top: 16rem;
+  left: 3rem;
+
+}
+
+
+
+
+
+
+
+
+
+
